@@ -58,7 +58,7 @@
         '    <div class="head">\n' +
         '        <div class="row clearfix">\n' +
         '            <div class="logo">\n' +
-        '                <a href="index.html" title="' + COMPANY_TITLE + '"><img src="images/hm.png" alt="HayMarMaw"></a>\n' +
+        '                <a href="https://hmm-portfolio.vercel.app/" title="' + COMPANY_TITLE + '"><img src="images/hm.png" alt="HayMarMaw"></a>\n' +
         '            </div><!-- end logo -->\n' +
         '            <div class="site_description">\n' +
         '                <p style="margin-bottom: 0px;">For any inquiries, please call me today.</p>\n' +

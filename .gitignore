@@ -1,0 +1,28 @@
+# OS files
+.DS_Store
+._*
+Thumbs.db
+desktop.ini
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment files
+.env
+.env.*
+.env.local
+
+# Build / cache
+.cache/
+dist/
+build/
+
+# Logs
+*.log
+
+# Development-only assets
+*.dev.svg

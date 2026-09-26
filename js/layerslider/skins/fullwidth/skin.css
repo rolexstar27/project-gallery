@@ -1,0 +1,73 @@
+/* LayerSlider Fullwidth Skin */
+
+.ls-fullwidth .ls-bottom-stripe {
+	background: rgba(0,0,0,0.35);
+}
+
+.ls-fullwidth .ls-bottom-stripe a {
+	background: url(skin.png) repeat-x;
+	display: block;
+	float: left;
+	width: 12px;
+	height: 12px;
+	margin: 0 4px;
+	cursor: pointer;
+}
+
+.ls-fullwidth .ls-bottom-stripe a:hover,
+.ls-fullwidth .ls-bottom-stripe a.active {
+	background-position: -12px 0;
+}
+
+.ls-fullwidth .ls-nav-prev,
+.ls-fullwidth .ls-nav-next {
+	width: 40px;
+	height: 40px;
+	background: rgba(0,0,0,0.4);
+	position: absolute;
+	top: 50%;
+	margin-top: -20px;
+	cursor: pointer;
+	z-index: 10;
+	border-radius: 50%;
+}
+
+.ls-fullwidth .ls-nav-prev {
+	left: 20px;
+	background-position: 0 0;
+}
+
+.ls-fullwidth .ls-nav-next {
+	right: 20px;
+	background-position: -40px 0;
+}
+
+.ls-fullwidth .ls-nav-prev:hover,
+.ls-fullwidth .ls-nav-next:hover {
+	background-color: rgba(0,0,0,0.6);
+}
+
+.ls-fullwidth .ls-loading-container {
+	width: 40px;
+	height: 40px;
+	margin-left: -20px;
+	margin-top: -20px;
+	background: url(loading.gif) no-repeat center center;
+}
+
+.ls-fullwidth .ls-thumbnail-hover {
+	padding: 3px;
+	background: #fff;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+	border-radius: 3px;
+}
+
+.ls-fullwidth .ls-thumbnail {
+	padding: 4px;
+	background: #f0f0f0;
+	border-radius: 3px;
+}
+
+.ls-fullwidth .ls-nothumb {
+	background: #e0e0e0;
+}
